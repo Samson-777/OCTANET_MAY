@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preserving Earth's Landscapes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text" id="home">
+      <h1>Preserving Earth's Landscapes</h1>
+      <p>Our Responsibility, Our Future</p>
+      <a href="#how" class="cta-button">Join the Movement</a>
+    </div>
+    <div class="top-icons">
+      <i class="ri-facebook-fill"></i>
+      <i class="ri-instagram-fill"></i>
+      <i class="ri-twitter-line"></i>
+      <a href="https://www.linkedin.com/in/samson-rohith-054310316/" target="_blank">
+        <i class="ri-linkedin-box-fill"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="home">
+    <div class="top-nav-btns">
+      <button class="btn">Home</button>
+      <button class="btn" onclick="location.href='#how'">About</button>
+      <button class="btn" onclick="location.href='#contact'">Contact</button>
+    </div>
+    <br><br><br><br>
+    <h2 class="section-title">Why It Matters</h2>
+    <p>
+      Natural landscapes provide us with clean air, fresh water, and a home for countless species.
+      It's our duty to protect them for future generations.<br>Preserving Earth's landscapes involves various actions to protect natural and cultural elements, including natural areas of beauty, and everyday or degraded landscapes. It's a broad concept encompassing conservation, land restoration, and sustainable land management practices
+    </p>
+  </section>
+  <hr>
+
+  <!-- Threats Section -->
+  <section class="threats">
+    <h2 class="section-title">Major Threats to Our Landscapes</h2>
+    <div class="threat-cards">
+      <div class="card">
+        <h3>Deforestation</h3>
+        <p>Forests are vanishing due to logging and farming.</p>
+      </div>
+      <div class="card">
+        <h3>Climate Change</h3>
+        <p>Rising temperatures and natural disasters are altering landscapes.</p>
+      </div>
+      <div class="card">
+        <h3>Urbanization</h3>
+        <p>Expanding cities are eating into natural spaces.</p>
+      </div>
+      <div class="card">
+        <h3>Pollution</h3>
+        <p>Plastic and chemicals are destroying ecosystems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How You Can Help Section -->
+  <section class="help" id="how" data-aos="fade-up">
+    <h2 class="section-title">How You Can Help</h2>
+    <ul>
+      <li>🌱 Plant more trees</li>
+      <li>♻️ Reduce plastic use</li>
+      <li>📢 Educate others</li>
+      <li>👐 Volunteer in cleanups</li>
+      <li>💰 Donate to green causes</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>© 2025 PreserveLand | Follow us on 
+      <a href="#">Instagram</a>, 
+      <a href="#">Twitter</a>,
+      <a href="https://www.linkedin.com/in/samson-rohith-054310316/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    window.addEventListener("load", () => {
+      document.body.classList.add("fade-bg");
+    });
+  </script>
+</body>
+</html>
